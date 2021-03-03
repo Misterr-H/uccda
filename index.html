@@ -9,20 +9,43 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
+<script>
+  function toggleMenu() {
+const navToggle = document.getElementsByClassName("toggle");
+for (let i = 0; i < navToggle.length; i++) {
+  navToggle.item(i).classList.toggle("hidden");
+}
+};
+</script>
+<style>
+  .toggle {
+      transition: 1s;
+  }
+</style>
+
 <body>
-  <div class="bg-gray-900  mx-auto items-center relative flex flex-wrap flex-row ">
+  <div class="bg-gray-900  mx-auto items-center relative flex flex-wrap flex-row w-full">
+        
     <img src="img/logo.png" class="w-14 h-14 pt-2 inline">
-    <h1 class="font-sans text-white font-bold inline">University Computer Center & Digital Affair Cell</h1>
-    <div class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-      <a href="index.html" class="text-white float-right p-3 text-red-600">Home</a>
-      <a href="#" class="text-white float-right p-3">Events</a>
-      <a href="about.html" class="text-white float-right p-3">About</a>
-      <a href="#" class="text-white float-right p-3">Contact</a>
-      <a href="#" class="fa fa-facebook text-white float-right p-1"></a>
-      <a href="#" class="fa fa-instagram text-white float-right p-2"></a>
-      <a href="#" class="fa fa-linkedin text-white float-right p-2"></a>
+    <h1 class="font-sans text-white font-bold inline text-xs md:text-xl">University Computer Center & Digital Affair Cell</h1>
+    <div class="flex md:hidden ml-auto">
+        <button id="hamburger" class="focus:outline-none" onclick="toggleMenu()">
+          <img class="toggle block " src="https://img.icons8.com/android/24/ffffff/menu.png" width="30" height="40" />
+          <img class="toggle hidden " src="https://img.icons8.com/ios/50/ffffff/xbox-x.png" width="40" height="40" />
+        </button>
+      </div>
+    <div class="md:ml-auto toggle hidden md:flex w-full md:w-auto text-right text-bold mt-5 md:mt-0 border-t-2 border-blue-900 md:border-none items-center text-base justify-center">
+        
+        <a href="index.html" class="block md:inline-block text-red-600 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">Home</a>
+        <a href="#" class="block md:inline-block text-white hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">Events</a>
+        <a href="#" class="block md:inline-block text-white hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">About</a>
+        <a href="#" class="block md:inline-block text-white hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">Contact</a>
+        <a href="#" class="fa fa-facebook text-white float-right p-1"></a>
+        <a href="#" class="fa fa-instagram text-white float-right p-2"></a>
+        <a href="#" class="fa fa-linkedin text-white float-right p-2"></a>
+        
     </div>
-  </div>
+</div>
 
   <div class=" mx-auto flex px-5 py-24 items-center justify-center flex-col " style="background: url('./img/lab.jpg');">
 
@@ -52,7 +75,7 @@
       We are the DIGITAL INDIA  TEAM Development in the digital age means we must learn tomorrow’s skills today.”  We are working together to fulfill the dream of Digital INDIA.</p>
   </div>
 
-  <div class="container flex flex-wrap flex-col justify-center items-center mt-9">
+  <div class="container flex flex-wrap flex-col justify-center items-center mt-9 mx-auto">
     <div class="m-3 p-8 flex flex-wrap flex-row justify-center items-center">
       <div class="m-2 sm:pr-20  flex flex-wrap flex-col sm:border-r-2 sm:border-gray-500">
         <h1 class="font-bold text-lg">Administrative Support</h1>
