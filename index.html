@@ -5,61 +5,72 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>University Computer Center and Digital Affair Cell</title>
-  <link rel="stylesheet" href="./output.css">
+  <link rel="stylesheet" href="./app.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <script>
   function toggleMenu() {
-const navToggle = document.getElementsByClassName("toggle");
-for (let i = 0; i < navToggle.length; i++) {
-  navToggle.item(i).classList.toggle("hidden");
-}
-};
+    const navToggle = document.getElementsByClassName("toggle");
+    for (let i = 0; i < navToggle.length; i++) {
+      navToggle.item(i).classList.toggle("hidden");
+    }
+  };
 </script>
 <style>
   .toggle {
-      transition: 1s;
+    transition: 1s;
   }
 </style>
 
 <body>
-  <div class="bg-gray-900  mx-auto items-center relative flex flex-wrap flex-row w-full">
-        
+  <div class="bg-gray-900  mx-auto items-center flex flex-wrap flex-row w-full fixed">
+
     <img src="img/logo.png" class="w-14 h-14 pt-2 inline">
-    <h1 class="font-sans text-white font-bold inline text-xs md:text-xl">University Computer Center & Digital Affair Cell</h1>
+    <h1 class="font-sans text-white font-bold inline text-xs md:text-xl">University Computer Center & Digital Affair
+      Cell</h1>
     <div class="flex md:hidden ml-auto">
-        <button id="hamburger" class="focus:outline-none" onclick="toggleMenu()">
-          <img class="toggle block " src="https://img.icons8.com/android/24/ffffff/menu.png" width="30" height="40" />
-          <img class="toggle hidden " src="https://img.icons8.com/ios/50/ffffff/xbox-x.png" width="40" height="40" />
-        </button>
-      </div>
-    <div class="md:ml-auto toggle hidden md:flex w-full md:w-auto text-right text-bold mt-5 md:mt-0 border-t-2 border-blue-900 md:border-none items-center text-base justify-center">
-        
-        <a href="index.html" class="block md:inline-block text-red-600 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">Home</a>
-        <a href="#" class="block md:inline-block text-white hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">Events</a>
-        <a href="about.html" class="block md:inline-block text-white hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">About</a>
-        <a href="#" class="block md:inline-block text-white hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">Contact</a>
-        <a href="#" class="fa fa-facebook text-white float-right p-1"></a>
-        <a href="#" class="fa fa-instagram text-white float-right p-2"></a>
-        <a href="#" class="fa fa-linkedin text-white float-right p-2"></a>
-        
+      <button id="hamburger" class="focus:outline-none" onclick="toggleMenu()">
+        <img class="toggle block " src="https://img.icons8.com/android/24/ffffff/menu.png" width="30" height="40" />
+        <img class="toggle hidden " src="https://img.icons8.com/ios/50/ffffff/xbox-x.png" width="40" height="40" />
+      </button>
     </div>
-</div>
+    <div
+      class="md:ml-auto toggle hidden md:flex w-full md:w-auto text-right text-bold mt-5 md:mt-0 border-t-2 border-blue-900 md:border-none items-center text-base justify-center">
 
-  <div class=" mx-auto flex px-5 py-24 items-center justify-center flex-col " style="background: url('./img/lab.jpg');">
+      <a href="index.html"
+        class="block md:inline-block text-red-600 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">Home</a>
+      <a href="#"
+        class="block md:inline-block text-white hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">Events</a>
+      <a href="about.html"
+        class="block md:inline-block text-white hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">About</a>
+      <a href="#"
+        class="block md:inline-block text-white hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">Contact</a>
+      <a href="#" class="fa fa-facebook text-white float-right p-1"></a>
+      <a href="#" class="fa fa-instagram text-white float-right p-2"></a>
+      <a href="#" class="fa fa-linkedin text-white float-right p-2"></a>
 
-    <p class=" text-white text-center font-serif text-3xl mt-20 bg-red-600">UNIVERSITY COMPUTER CENTER &<br>DIGITAL
+    </div>
+  </div>
+
+  <div class=" mx-auto flex px-5 py-24 items-center justify-center flex-col bg-cover bg-fixed bg-no-repeat bg-dcell">
+
+    <p class=" text-white text-center font-serif text-3xl mt-20 bg-red-600 rounded p-4" data-aos="fade-up"
+      data-aos-delay="500" data-aos-duration="1000">UNIVERSITY COMPUTER CENTER &<br>DIGITAL
       AFFAIR CELL</p>
 
-    <h1 class="text-white text-center font-sans mt-10 text-xl bg-black">Student Chapter</h1>
+    <h1 class="text-white text-center font-sans mt-10 text-xl bg-black rounded p-2" data-aos="fade-up"
+      data-aos-delay="700" data-aos-duration="1000">Student Chapter</h1>
 
-    <button class="bg-red-600 pl-10 pr-10 h-10 w-29 mt-10 text-white mb-5">Explore</button>
+    <button class="bg-red-600 pl-10 pr-10 h-10 w-29 mt-10 text-white mb-5" data-aos="fade-up" data-aos-delay="900"
+      data-aos-duration="1000">Explore</button>
 
 
   </div>
-  <div class=" mx-auto flex flex-wrap  p-5  justify-center  rounded-3xl bg-white shadow-2xl container" style="margin-top: -5rem;">
-    <img src="img/logo.png" class=" bg-black pt-8 float-left w-auto h-auto m-5" >
+  <div class=" mx-auto flex flex-wrap  p-5  justify-center  rounded-3xl bg-white shadow-2xl container"
+    style="margin-top: -5rem;">
+    <img src="img/logo.png" class=" bg-black pt-8 float-left w-auto h-auto m-5">
     <div class="mx-auto flex flex-wrap flex-col justify-center p-5">
       <h1 class="font-serif text-3xl mt-1 "><i><b>UCC & DA Cell</b></i></h1>
       <p class="font-serif text-lg mx-auto mt-20 ">The most innovative cell of the university<br>where members are not
@@ -69,36 +80,103 @@ for (let i = 0; i < navToggle.length; i++) {
   </div>
   <br>
   <br>
-  <div class="flex flex-wrap flex-col justify-center items-center">
-    <h1 class=" text-4xl p-4 font-bold" style=font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">What are we?</h1>
-    <p class="p-3 font-bold text-xl font-serif sm:pl-52 sm:pr-52">We are a familiy of digital cell in Jc bose university of Science and Technology, ymca.
-      We are the DIGITAL INDIA  TEAM Development in the digital age means we must learn tomorrow’s skills today.”  We are working together to fulfill the dream of Digital INDIA.</p>
+  <div class="flex flex-wrap flex-col justify-center items-center" data-aos="fade-left" data-aos-delay="100"
+    data-aos-duration="1000" data-aos-offset="200">
+    <h1 class=" text-4xl p-4 font-bold" style=font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">What are we?
+    </h1>
+    <p class="p-3 font-bold text-xl font-serif sm:pl-52 sm:pr-52">We are a familiy of digital cell in Jc bose university
+      of Science and Technology, ymca.
+      We are the DIGITAL INDIA TEAM Development in the digital age means we must learn tomorrow’s skills today.” We are
+      working together to fulfill the dream of Digital INDIA.</p>
   </div>
 
-  <div class="container flex flex-wrap flex-col justify-center items-center mt-9 mx-auto">
+  <div class="container flex flex-wrap flex-col justify-center items-center mt-9 mx-auto" data-aos="fade-right"
+    data-aos-delay="100" data-aos-duration="1000" data-aos-offset="200">
     <div class="m-3 p-8 flex flex-wrap flex-row justify-center items-center">
       <div class="m-2 sm:pr-20  flex flex-wrap flex-col sm:border-r-2 sm:border-gray-500">
         <h1 class="font-bold text-lg">Administrative Support</h1>
-        <p class="text-lg mx-auto">UCC has a great support over<br>the university for the past four<br>years. Some Other Text Goes<br>here.</p>
+        <p class="text-lg mx-auto">UCC has a great support over<br>the university for the past four<br>years. Some Other
+          Text Goes<br>here.</p>
       </div>
       <div class="m-2 sm:ml-10 flex flex-wrap flex-col ">
         <h1 class="font-bold text-lg">Student Support</h1>
-        <p class="text-lg ">UCC has a great support over<br>the university for the past four<br>years. Some Other Text Goes<br>here.</p>
+        <p class="text-lg ">UCC has a great support over<br>the university for the past four<br>years. Some Other Text
+          Goes<br>here.</p>
       </div>
     </div>
 
     <div class="m-3 p-4 flex flex-wrap flex-row justify-center items-center">
       <div class="m-2 sm:pr-20  flex flex-wrap flex-col sm:border-r-2 sm:border-gray-500">
         <h1 class="font-bold text-lg">Social Media</h1>
-        <p class="text-lg mx-auto">UCC has a great support over<br>the university for the past four<br>years. Some Other Text Goes<br>here.</p>
+        <p class="text-lg mx-auto">UCC has a great support over<br>the university for the past four<br>years. Some Other
+          Text Goes<br>here.</p>
       </div>
       <div class="m-2 sm:pl-10 flex flex-wrap flex-col ">
         <h1 class="font-bold text-lg">Events</h1>
-        <p class="text-lg ">UCC has a great support over<br>the university for the past four<br>years. Some Other Text Goes<br>here.</p>
+        <p class="text-lg ">UCC has a great support over<br>the university for the past four<br>years. Some Other Text
+          Goes<br>here.</p>
       </div>
     </div>
     <button class="bg-red-600 pl-10 pr-10 h-10 w-29 mt-10 text-white mb-5">Move To Top</button>
 
+  </div>
+  <br>
+  <br>
+  <div class="mx-auto flex flex-wrap flex-row p-5  justify-center rounded-3xl bg-gray-100 shadow-2xl container"
+    data-aos="fade-up-left" data-aos-offset="300" data-aos-delay="100" data-aos-duration="1000">
+    <div class="flex flex-wrap m-6">
+      <img src="img/vc.jpg" height="100%" width="100%">
+    </div>
+    <div class="flex flex-wrap flex-col md:ml-auto md:mr-6 mt-6 mb-6">
+      <h1 class="font-sans font-bold text-3xl md:ml-auto"> From The Desk of Vice Chancellor's</h1>
+      <p class="font-sans text-lg mt-5 md:mr-20 md:w-96 md:ml-auto">JC bose University of Science and Technology, ymca
+        has taken
+        initiative to enhance the
+        knowledge of students towards digital learning.
+        It gives me immense pleasure that our University has a digital learning platform for students.Our institution
+        has
+        turned to digital learning to give both students and teachers an alternative to the traditional on Campus
+        classroom.
+        Digital learning gives students the opportunity to have more of a hand in their learning experience.
+        The faculty members of digital cell have also raised the standards of teaching and research through
+        incorporating
+        MOOC courses mainly NPTEL and SWAYAM in the routine classroom teaching.
+        By offering personalised and interactive course content students can approach the course at the on pace.
+        <br>
+        <strong>Regards</strong>
+        <br>
+        <strong>Prof.Dinesh kumar</strong>
+      </p>
+    </div>
+  </div>
+
+  <div class="mx-auto flex flex-wrap flex-row p-5 mt-20 justify-center rounded-3xl bg-gray-100 shadow-2xl container"
+    data-aos="fade-up-right" data-aos-offset="300" data-aos-delay="100" data-aos-duration="1000">
+    <div class="flex flex-wrap flex-col md:mr-auto md:ml-6 mt-6 mb-6">
+      <h1 class="font-sans font-bold text-3xl md:mr-auto"> From The Desk of Teacher Coordinator</h1>
+      <p class="font-sans text-lg mt-5 md:ml-20 md:w-96 md:mr-auto">JC bose University of Science and Technology, ymca
+        has taken
+        initiative to enhance the
+        knowledge of students towards digital learning.
+        It gives me immense pleasure that our University has a digital learning platform for students.Our institution
+        has
+        turned to digital learning to give both students and teachers an alternative to the traditional on Campus
+        classroom.
+        Digital learning gives students the opportunity to have more of a hand in their learning experience.
+        The faculty members of digital cell have also raised the standards of teaching and research through
+        incorporating
+        MOOC courses mainly NPTEL and SWAYAM in the routine classroom teaching.
+        By offering personalised and interactive course content students can approach the course at the on pace.
+        <br>
+        <strong>Regards</strong>
+        <br>
+        <strong>Prof.Neelam Duhan</strong>
+      </p>
+    </div>
+
+    <div class="flex flex-wrap m-6">
+      <img src="img/neelam.jpg" height="100%" width="200%">
+    </div>
   </div>
   <br>
   <br>
@@ -107,46 +185,73 @@ for (let i = 0; i < navToggle.length; i++) {
     <h1 class="font-serif font-bold text-white text-xl">In Association With</h1>
     <h1 class="font-serif font-bold text-white text-xl">JC Bose University of Science & Technology, YMCA</h1>
     <img src="img/logo2.png" class="mt-5">
-    
+    <h1 class="font-serif text-white text-3xl m-6" data-aos="zoom-out">About University</h1>
+    <h1 class="font-serif text-white text-lg leading-8 md:mx-32 mb-8" data-aos="zoom-out" data-aos-duration="1000">JC BOSE University of Science and Technology (YMCA UST) is earlier known
+      as YMCA University of Science and Technology. JC BOSE University of Science and Technology (YMCA UST) was
+      established in 1969. YMCA UST has been recognized by the University Grants Commission. It is located in Faridabad,
+      Haryana. YMCA UST has been approved by AICTE. It has been accredited by NAAC. 
+      YMCA UST as a joint venture of the National Council Of YMCAs of India, Govt. of Haryana, and the Central Agencies
+      for Development Aid, Bonn, Germany. It started as an Indo-German project aiming to impart technical education to
+      India on a German pattern. YMCA UST offers various undergraduate and post-graduate programmes. The Admissions at
+      YMCA UST to those courses are conducted every year.
+       “J. C. Bose University of Science and Technology, YMCA, Faridabad aspires to be a nationally and internationally
+      acclaimed leader in technical and higher education in all spheres which transforms the life of students through
+      the integration of teaching, research and character building.”</h1>
+
   </div>
 
   <footer class="text-gray-600 body-font">
     <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
       <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-        <img src="./img/logo2.png" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2  rounded-full" viewBox="0 0 24 24">
-          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        <img src="./img/logo2.png" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+          stroke-width="2" class="w-10 h-10 text-white p-2  rounded-full" viewBox="0 0 24 24">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
         </svg>
         <span class="ml-3 text-xl">JC Bose University of Science and Technology, YMCA, Faridabad</span>
       </a>
-      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2021 UCC & DAC —
-        <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">Mister H Technologies</a>
+      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2021 UCC
+        & DAC —
+        <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer"
+          target="_blank">Mister H Technologies</a>
       </p>
       <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
         <a class="text-gray-500">
-          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+            viewBox="0 0 24 24">
             <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
           </svg>
         </a>
         <a class="ml-3 text-gray-500">
-          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+            viewBox="0 0 24 24">
+            <path
+              d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+            </path>
           </svg>
         </a>
         <a class="ml-3 text-gray-500">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            class="w-5 h-5" viewBox="0 0 24 24">
             <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
             <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
           </svg>
         </a>
         <a class="ml-3 text-gray-500">
-          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
-            <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"
+            class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none"
+              d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
             <circle cx="4" cy="4" r="2" stroke="none"></circle>
           </svg>
         </a>
       </span>
     </div>
   </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 
