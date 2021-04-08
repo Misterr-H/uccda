@@ -7,15 +7,16 @@
     <title>University Computer Center and Digital Affair Cell</title>
     <link rel="stylesheet" href="./app.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./custom.css">
 </head>
 
 <script>
     function toggleMenu() {
-  const navToggle = document.getElementsByClassName("toggle");
-  for (let i = 0; i < navToggle.length; i++) {
-    navToggle.item(i).classList.toggle("hidden");
-  }
-};
+        const navToggle = document.getElementsByClassName("toggle");
+        for (let i = 0; i < navToggle.length; i++) {
+            navToggle.item(i).classList.toggle("hidden");
+        }
+    };
 </script>
 <style>
     .toggle {
@@ -25,35 +26,45 @@
 
 <body>
     <div class="bg-gray-900  mx-auto items-center fixed flex flex-wrap flex-row w-full">
-        
+
         <img src="img/logo.png" class="w-14 h-14 pt-2 inline">
-        <h1 class="font-sans text-white font-bold inline text-xs md:text-xl">University Computer Center & Digital Affair Cell</h1>
+        <h1 class="font-sans text-white font-bold inline text-xs md:text-xl">University Computer Center & Digital Affair
+            Cell</h1>
         <div class="flex md:hidden ml-auto">
             <button id="hamburger" class="focus:outline-none" onclick="toggleMenu()">
-              <img class="toggle block " src="https://img.icons8.com/android/24/ffffff/menu.png" width="30" height="40" />
-              <img class="toggle hidden " src="https://img.icons8.com/ios/50/ffffff/xbox-x.png" width="40" height="40" />
+                <img class="toggle block " src="https://img.icons8.com/android/24/ffffff/menu.png" width="30"
+                    height="40" />
+                <img class="toggle hidden " src="https://img.icons8.com/ios/50/ffffff/xbox-x.png" width="40"
+                    height="40" />
             </button>
-          </div>
-        <div class="md:ml-auto toggle hidden md:flex w-full md:w-auto text-right text-bold mt-5 md:mt-0 border-t-2 border-blue-900 md:border-none items-center text-base justify-center">
-            
-            <a href="index.html" class="block md:inline-block text-white hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">Home</a>
-            <a href="#" class="block md:inline-block text-white hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">Events</a>
-            <a href="#" class="block md:inline-block text-red-600 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">About</a>
-            <a href="#" class="block md:inline-block text-white hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">Contact</a>
+        </div>
+        <div
+            class="md:ml-auto toggle hidden md:flex w-full md:w-auto text-right text-bold mt-5 md:mt-0 border-t-2 border-blue-900 md:border-none items-center text-base justify-center">
+
+            <a href="index.html"
+                class="block md:inline-block text-white hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">Home</a>
+            <a href="#"
+                class="block md:inline-block text-white hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">Events</a>
+            <a href="#"
+                class="block md:inline-block text-red-600 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">About</a>
+            <a href="#"
+                class="block md:inline-block text-white hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none">Contact</a>
             <a href="#" class="fa fa-facebook text-white float-right p-1"></a>
             <a href="#" class="fa fa-instagram text-white float-right p-2"></a>
             <a href="#" class="fa fa-linkedin text-white float-right p-2"></a>
-            
+
         </div>
     </div>
     <div
-        class="  w-full items-center  flex flex-wrap flex-col bg-gradient-to-r from-red-400 to-red-600  p-6">
+        class="  w-full items-center  flex flex-wrap flex-col bg-gradient-to-r from-red-600 via-green-400 to-gray-900  p-12">
         <div
-            class="rounded-2xl p-10 items-center flex flex-wrap flex-col container  shadow bg-transparent bg-gradient-to-r from-red-300 to-red-400 m-6 mx-auto ">
-            <h1 class="font-serif text-5xl self-center mt-5 text-black">About!</h1>
+            class="rounded-2xl p-10 items-center flex flex-wrap flex-col container  shadow bg-transparent bg-gradient-to-r from-yellow-500 via-gray-500 to-blue-500 m-6 mx-auto ">
+            <h1 class=" text-5xl self-center mt-5 text-black" style="font-family: 'Poppins', sans-serif;">ABOUT!</h1>
             <h1 class="font-mono text-black mt-3 self-center">UCC established in so and so year by so and so
                 teachers<br>email id so and so</h1>
-            <h1 class="font-serif text-5xl self-center mt-5 text-black">Broad Objective of the cell are
+            <h1 class=" text-5xl self-center mt-5 text-black"
+                style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                Broad Objective of the cell are
                 as follows:</h1>
             <ul class="list-decimal self-center">
                 <li class="m-4">Objective 1: Objective one goes here.</li>
@@ -63,7 +74,9 @@
                 <li class="m-4">Objective 5: Objective five goes here.</li>
                 <li class="m-4">Objective 6: Objective six goes here.</li>
             </ul>
-            <h1 class="font-serif text-5xl self-center mt-5 text-black">Avenues of Operation:</h1>
+            <h1 class=" text-5xl self-center mt-5 text-black"
+                style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Avenues of Operation:
+            </h1>
             <h1 class="font-mono text-black mt-3 self-center">The cell would faciliate following activities in broad
                 ways:</h1>
             <ul class="list-decimal self-center">
@@ -79,245 +92,136 @@
     </div>
     <br>
     <br>
-    <div class="  mx-auto items-center relative flex flex-wrap flex-col container ">
+    <div class="  mx-auto items-center  flex flex-wrap flex-col container ">
         <h1 class="font-serif text-5xl self-center mt-5 text-black">Faculty Coordinators:</h1>
     </div>
-    <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
-            <div class="flex flex-wrap -m-4">
-                <div class="p-4 md:w-1/3">
-                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                        <img class="lg:h-48 md:h-36 w-full object-cover object-center"
-                            src="https://dummyimage.com/720x400" alt="blog">
-                        <div class="p-6">
-                            <h2 class="tracking-widest text-lg title-font font-medium text-gray-400 mb-1">NAME</h2>
-                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">BRANCH</h1>
-                            <p class="leading-relaxed mb-3">POSITION</p>
-                            <div class="flex items-center flex-wrap ">
-                               
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="p-4 md:w-1/3">
-                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                        <img class="lg:h-48 md:h-36 w-full object-cover object-center"
-                            src="https://dummyimage.com/721x401" alt="blog">
-                        <div class="p-6">
-                            <h2 class="tracking-widest text-lg title-font font-medium text-gray-400 mb-1">NAME</h2>
-                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">BRANCH</h1>
-                            <p class="leading-relaxed mb-3">POSITION</p>
-                            <div class="flex items-center flex-wrap">
-                               
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="p-4 md:w-1/3">
-                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                        <img class="lg:h-48 md:h-36 w-full object-cover object-center"
-                            src="https://dummyimage.com/722x402" alt="blog">
-                        <div class="p-6">
-                            <h2 class="tracking-widest text-lg title-font font-medium text-gray-400 mb-1">NAME</h2>
-                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">BRANCH</h1>
-                            <p class="leading-relaxed mb-3">POSITION</p>
-                            <div class="flex items-center flex-wrap ">
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <div class="cont">
+        <div class="card">
+            <span></span>
+            <div class="content">
+                <img src="./img/dp.jpeg" class="h-32 w-32 rounded-full mx-auto">
+                <h2>Name</h2>
+
+                <h2>Position</h2>
+                <p>Some sort of description.</p>
+
             </div>
         </div>
-    </section>
 
-    <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
-            <div class="flex flex-wrap -m-4">
-                <div class="p-4 md:w-1/3">
-                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                        <img class="lg:h-48 md:h-36 w-full object-cover object-center"
-                            src="https://dummyimage.com/720x400" alt="blog">
-                        <div class="p-6">
-                            <h2 class="tracking-widest text-lg title-font font-medium text-gray-400 mb-1">NAME</h2>
-                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">BRANCH</h1>
-                            <p class="leading-relaxed mb-3">POSITION</p>
-                            <div class="flex items-center flex-wrap ">
-                               
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="p-4 md:w-1/3">
-                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                        <img class="lg:h-48 md:h-36 w-full object-cover object-center"
-                            src="https://dummyimage.com/721x401" alt="blog">
-                        <div class="p-6">
-                            <h2 class="tracking-widest text-lg title-font font-medium text-gray-400 mb-1">NAME</h2>
-                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">BRANCH</h1>
-                            <p class="leading-relaxed mb-3">POSITION</p>
-                            <div class="flex items-center flex-wrap">
-                               
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="p-4 md:w-1/3">
-                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                        <img class="lg:h-48 md:h-36 w-full object-cover object-center"
-                            src="https://dummyimage.com/722x402" alt="blog">
-                        <div class="p-6">
-                            <h2 class="tracking-widest text-lg title-font font-medium text-gray-400 mb-1">NAME</h2>
-                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">BRANCH</h1>
-                            <p class="leading-relaxed mb-3">POSITION</p>
-                            <div class="flex items-center flex-wrap ">
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="card">
+            <span></span>
+            <div class="content">
+                <img src="./img/dp.jpeg" class="h-32 w-32 rounded-full mx-auto">
+                <h2>Name</h2>
+
+                <h2>Position</h2>
+                <p>Some sort of description.</p>
+
             </div>
         </div>
-    </section>
 
-    <div class="  mx-auto items-center relative flex flex-wrap flex-col container ">
-        <h1 class="font-serif text-5xl self-center mt-5 text-black">Student Members:</h1>
-    </div>
-    <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
-            <div class="flex flex-wrap -m-4">
-                <div class="p-4 md:w-1/3">
-                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                        <img class="lg:h-48 md:h-36 w-full object-cover object-center"
-                            src="https://dummyimage.com/720x400" alt="blog">
-                        <div class="p-6">
-                            <h2 class="tracking-widest text-lg title-font font-medium text-gray-400 mb-1">NAME</h2>
-                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">BRANCH</h1>
-                            <p class="leading-relaxed mb-3">POSITION</p>
-                            <div class="flex items-center flex-wrap ">
-                               
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="p-4 md:w-1/3">
-                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                        <img class="lg:h-48 md:h-36 w-full object-cover object-center"
-                            src="https://dummyimage.com/721x401" alt="blog">
-                        <div class="p-6">
-                            <h2 class="tracking-widest text-lg title-font font-medium text-gray-400 mb-1">NAME</h2>
-                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">BRANCH</h1>
-                            <p class="leading-relaxed mb-3">POSITION</p>
-                            <div class="flex items-center flex-wrap">
-                               
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="p-4 md:w-1/3">
-                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                        <img class="lg:h-48 md:h-36 w-full object-cover object-center"
-                            src="https://dummyimage.com/722x402" alt="blog">
-                        <div class="p-6">
-                            <h2 class="tracking-widest text-lg title-font font-medium text-gray-400 mb-1">NAME</h2>
-                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">BRANCH</h1>
-                            <p class="leading-relaxed mb-3">POSITION</p>
-                            <div class="flex items-center flex-wrap ">
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="card">
+            <span></span>
+            <div class="content">
+                <img src="./img/dp.jpeg" class="h-32 w-32 rounded-full mx-auto">
+                <h2>Name</h2>
+
+                <h2>Position</h2>
+                <p>Some sort of description.</p>
+
             </div>
         </div>
-    </section>
 
-    <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
-            <div class="flex flex-wrap -m-4">
-                <div class="p-4 md:w-1/3">
-                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                        <img class="lg:h-48 md:h-36 w-full object-cover object-center"
-                            src="https://dummyimage.com/720x400" alt="blog">
-                        <div class="p-6">
-                            <h2 class="tracking-widest text-lg title-font font-medium text-gray-400 mb-1">NAME</h2>
-                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">BRANCH</h1>
-                            <p class="leading-relaxed mb-3">POSITION</p>
-                            <div class="flex items-center flex-wrap ">
-                               
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="p-4 md:w-1/3">
-                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                        <img class="lg:h-48 md:h-36 w-full object-cover object-center"
-                            src="https://dummyimage.com/721x401" alt="blog">
-                        <div class="p-6">
-                            <h2 class="tracking-widest text-lg title-font font-medium text-gray-400 mb-1">NAME</h2>
-                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">BRANCH</h1>
-                            <p class="leading-relaxed mb-3">POSITION</p>
-                            <div class="flex items-center flex-wrap">
-                               
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="p-4 md:w-1/3">
-                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                        <img class="lg:h-48 md:h-36 w-full object-cover object-center"
-                            src="https://dummyimage.com/722x402" alt="blog">
-                        <div class="p-6">
-                            <h2 class="tracking-widest text-lg title-font font-medium text-gray-400 mb-1">NAME</h2>
-                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">BRANCH</h1>
-                            <p class="leading-relaxed mb-3">POSITION</p>
-                            <div class="flex items-center flex-wrap ">
-                                
-                            </div>
-                        </div>
-                    </div>
+        <div class="cont">
+            <div class="card">
+                <span></span>
+                <div class="content">
+                    <img src="./img/dp.jpeg" class="h-32 w-32 rounded-full mx-auto">
+                    <h2>Name</h2>
+
+                    <h2>Position</h2>
+                    <p>Some sort of description.</p>
+
                 </div>
             </div>
-        </div>
-    </section>
 
-    <footer class="text-gray-600 body-font">
-        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-          <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-            <img src="./img/logo2.png" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2  rounded-full" viewBox="0 0 24 24">
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-            </svg>
-            <span class="ml-3 text-xl">JC Bose University of Science and Technology, YMCA, Faridabad</span>
-          </a>
-          <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2021 UCC & DAC —
-            <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">Mister H Technologies</a>
-          </p>
-          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-            <a class="text-gray-500">
-              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-              </svg>
-            </a>
-            <a class="ml-3 text-gray-500">
-              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-              </svg>
-            </a>
-            <a class="ml-3 text-gray-500">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-              </svg>
-            </a>
-            <a class="ml-3 text-gray-500">
-              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
-                <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
-                <circle cx="4" cy="4" r="2" stroke="none"></circle>
-              </svg>
-            </a>
-          </span>
-        </div>
-      </footer>
+            <div class="card">
+                <span></span>
+                <div class="content">
+                    <img src="./img/dp.jpeg" class="h-32 w-32 rounded-full mx-auto">
+                    <h2>Name</h2>
+
+                    <h2>Position</h2>
+                    <p>Some sort of description.</p>
+
+                </div>
+            </div>
+
+            <div class="card">
+                <span></span>
+                <div class="content">
+                    <img src="./img/dp.jpeg" class="h-32 w-32 rounded-full mx-auto">
+                    <h2>Name</h2>
+
+                    <h2>Position</h2>
+                    <p>Some sort of description.</p>
+
+                </div>
+            </div>
+
+
+
+            <footer class="text-gray-600 body-font">
+                <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+                    <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                        <img src="./img/logo2.png" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2  rounded-full"
+                            viewBox="0 0 24 24">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                        </svg>
+                        <span class="ml-3 text-xl">JC Bose University of Science and Technology, YMCA, Faridabad</span>
+                    </a>
+                    <p
+                        class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
+                        ©
+                        2021 UCC & DAC —
+                        <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer"
+                            target="_blank">Mister H Technologies</a>
+                    </p>
+                    <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                        <a class="text-gray-500">
+                            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                class="w-5 h-5" viewBox="0 0 24 24">
+                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                            </svg>
+                        </a>
+                        <a class="ml-3 text-gray-500">
+                            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                class="w-5 h-5" viewBox="0 0 24 24">
+                                <path
+                                    d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                </path>
+                            </svg>
+                        </a>
+                        <a class="ml-3 text-gray-500">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                            </svg>
+                        </a>
+                        <a class="ml-3 text-gray-500">
+                            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                                <path stroke="none"
+                                    d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                                </path>
+                                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                            </svg>
+                        </a>
+                    </span>
+                </div>
+            </footer>
 
 
 </body>
